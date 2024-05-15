@@ -16,7 +16,8 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.6.5",
-    "pg-promise": "^11.6.0"
+    "pg-promise": "^11.6.0",
+    "vite": "^5.2.11"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
