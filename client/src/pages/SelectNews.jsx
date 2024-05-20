@@ -10,7 +10,7 @@ function SelectNews() {
   const [point, setPoint] = useState(0);
 
   useEffect(() => {
-    fetch("http://localhost:3000/src/news.json")
+    fetch("https://raw.githubusercontent.com/hakim-azizi/faketory/main/client/src/News.json")
       .then((response) => response.json())
       .then((data) => {
         const max = data.fakenews.length;

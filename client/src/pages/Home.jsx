@@ -66,8 +66,8 @@ function Home() {
   // ------------
   useEffect(() => {
 
-    const fakeNews = fetch("http://localhost:3310/api/fakenews");
-    const trueNews = fetch("http://localhost:3310/api/truenews");
+    const fakeNews = fetch("https://raw.githubusercontent.com/hakim-azizi/faketory/main/server/Fakenews.json");
+    const trueNews = fetch("https://raw.githubusercontent.com/hakim-azizi/faketory/main/server/trueNews.json");
 
     Promise.all([fakeNews, trueNews])
       .then(([dataFake, dataTrue]) => {
