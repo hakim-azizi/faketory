@@ -38,5 +38,6 @@
   },
   "dependencies": {
     "vite": "^5.2.11"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
