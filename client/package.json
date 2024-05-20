@@ -24,10 +24,10 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "prettier": "^3.1.1",
     "vite": "^5.2.11"
-  },
-  "proxy": "http://localhost:3001",
+  }
   "lint-staged": {
     "*.{html,scss,css}": "prettier --check",
     "*.{jsx,js}": "eslint --report-unused-disable-directives"
-  }
+  },
+  "proxy": "http://localhost:3001",
 }
