@@ -6,7 +6,7 @@ function FakeSchool() {
   const [content, setContent] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/src/Fakeschool.json")
+    fetch("https://raw.githubusercontent.com/hakim-azizi/faketory/main/client/src/Fakeschool.json")
       .then((response) => response.json())
       .then((data) => setContent(data));
   }, []);
