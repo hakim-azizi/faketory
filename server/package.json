@@ -32,5 +32,6 @@
   "lint-staged": {
     "*.sql": "prettier --check",
     "*.js": "eslint --report-unused-disable-directives"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
