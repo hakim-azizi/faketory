@@ -29,5 +29,5 @@
     "*.{html,scss,css}": "prettier --check",
     "*.{jsx,js}": "eslint --report-unused-disable-directives"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:3001"
 }
